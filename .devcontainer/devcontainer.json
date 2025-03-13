@@ -1,0 +1,8 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/python",
+    "features": {
+      "ghcr.io/devcontainers/features/python:1": {}
+    },
+    "postCreateCommand": "pip install apache-airflow beautifulsoup4 pandas sqlite3 matplotlib && airflow db init"
+  }
+  
